@@ -1,0 +1,63 @@
+.new-data__controls {
+    display: flex;
+    /* display: none; */
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    animation: fadeIn 1s;
+    /* border:1px solid grey; */
+    width:600px;
+    margin:auto;
+    margin-bottom: 10px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    
+  }
+  .form{
+    width:600px;
+    margin:auto;
+    background-color: rgb(108, 23, 108);
+    border-radius:10px;
+    box-shadow: 5px 5px 5px rgb(78, 74, 74);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+  .new-data__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color:rgb(15, 15, 15)
+  }
+  
+  .new-data__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 30rem;
+    box-shadow: 5px 5px 5px rgb(41, 41, 41);
+    
+  }
+  
+  .new-data__actions {
+    text-align:left;
+    display: block;
+   
+   
+  }
+  .new-data__actions button{
+    width:100px;
+    height:30px;
+    margin-left: 45px;
+    box-shadow: 5px 5px 5px rgb(41, 41, 41);
+    border-radius: 5px;
+    color:rgb(56, 56, 56)
+  }
